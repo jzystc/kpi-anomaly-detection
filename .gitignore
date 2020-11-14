@@ -1,0 +1,4 @@
+*.zip
+/donut-master
+/.vscode
+/data
