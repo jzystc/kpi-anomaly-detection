@@ -25,4 +25,4 @@ The kpi value is normal in most time, while sometimes the kpi value becomes abno
 `scikit-learn`
 `numpy`
 `pandas`
-`optimal`
+`optuna`
