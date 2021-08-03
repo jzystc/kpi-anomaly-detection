@@ -33,7 +33,7 @@ class XGBPredictor:
         Xs = samples[:, :-1]
         Ys = samples[:, -1:]
         self.features = series[-self.period:]
-        self.model = XGB.XGBRegressor(
+        self.model = xgboost.XGBRegressor(
             n_estimators=100, max_depth=5, random_state=0)
         self.model.fit(Xs, Ys)
         self.errs = self.predict(list(series))

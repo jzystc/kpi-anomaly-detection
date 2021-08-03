@@ -1,4 +1,7 @@
 *.zip
 /donut-master
 /.vscode
-/data
+figures/
+*.csv
+model/
+__pycache__/
