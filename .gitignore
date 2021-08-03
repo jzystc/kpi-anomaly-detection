@@ -2,6 +2,6 @@
 /donut-master
 /.vscode
 figures/
-*.csv
 model/
 __pycache__/
+data/train.csv
