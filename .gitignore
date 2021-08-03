@@ -4,4 +4,6 @@
 figures/
 model/
 __pycache__/
+kpi/detector/__pycache__
+kpi/processor/__pycache__
 data/train.csv
