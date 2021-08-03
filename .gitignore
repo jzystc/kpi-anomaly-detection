@@ -5,3 +5,4 @@ figures/
 /*.csv
 model/
 __pycache__/
+data/train.csv
